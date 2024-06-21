@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body{
+  background-color: #4a4a4a !important;
+  
+} */
+li{
+  list-style: none;
+}
+img{
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  width: 50px;
+}
+.navbar-brand img{
+  border-radius: 50%;
+
+}
+nav .search{
+  width: 400px;
+  background-color: #7e7d7d70;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+  background-color: #292828;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav span{
+  color: aliceblue;
+  padding: 0 10px;
+  font-weight: 600;
 }
-
-.App-link {
-  color: #61dafb;
+nav li .nav-link{
+  color: aliceblue !important;
+  font-size: 20px;
+  padding: 0 20px !important;
 }
+/* ============= */
+.home .card-text{
+  padding: 10px;
+}
+.m-50{
+  margin-top: 50px ;
+}
+.home .col-lg-2{
+  padding: 10px;
+}
+/* ======================= */
+footer li a{
+  font-size: 25px;
+  color: aliceblue;
+  margin: 10px;
+  transition: all .5s;
+}
+footer li a:hover{
+  color: aquamarine;
+  transform: rotateY(360deg);
+}
+footer p{
+  font-size: 12px;
+  padding: 5px;
+}
+footer{
+  color: aliceblue;
+  background-color: #292828;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+/* ============== */
+.booklist table img{
+  width: 50px;
+}
+/* .booklist{
+  height: 100vh;
+} */
+.dashboard{
+  background-color: #ffffff !important;
+}
+.dashboard .nav-link span{
+  font-size: 30px;
+}
+.dashboard .sidebar-nav li{
+  font-size: 25px;
+
+  padding: 10px 0;
+  margin-top: 10px;
+}
+.dashboard .sidebar-nav a{
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.dashboard .sidebar-nav a{
+  padding: 0 10px;
+}
+.dashboard .sidebar-nav a .icon{
+  font-size: 20px;
+}
+.sidebar-nav{
+  border-right: 2px solid #4a4a4a;
+}
+.displayBooks td img{
+  width: 50px;
 }
